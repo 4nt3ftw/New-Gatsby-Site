@@ -7,7 +7,7 @@
   --maxWidth-md: 28rem;
   --maxWidth-lg: 32rem;
   --maxWidth-xl: 36rem;
-  --maxWidth-2xl: 42rem;
+  --maxWidth-2xl: 72rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
@@ -319,6 +319,11 @@ a:focus {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+.test-class {
+  height:500px;
+  background-color: #e1e1e1;
 }
 
 /* Media queries */
